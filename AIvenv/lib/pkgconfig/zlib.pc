@@ -1,0 +1,13 @@
+prefix=/Users/AI Bugger/AIvenv
+exec_prefix=/Users/AI Bugger/AIvenv
+libdir=/Users/AI Bugger/AIvenv/lib
+sharedlibdir=/Users/AI Bugger/AIvenv/lib
+includedir=/Users/AI Bugger/AIvenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
